@@ -46,20 +46,22 @@ footer{
     padding: 8px;
     background-color: #33673b;
     color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 main {
     padding: 8px;
-    max-width: 1000px;
-    margin: 18px auto;
-    background-color: #f9f9f9;
+    max-width: 8000px;
+    margin: 18px;
     border-radius: 8px;
-    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
+   
 }
 
 
 article header {
-    background-color: #f9f9f9;
+    background-color: #e5f4e3;
     text-align: center;
 
 }
@@ -70,7 +72,9 @@ article section {
 
 footer a
 {
+    
     color: #e5f4e3;
+    
 }
 
 .section
@@ -82,4 +86,9 @@ footer a
     background-color: #33673b;
     color:#f9f9f9;
     justify-content: center;
+    margin: 12px;
+    padding: 12px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.938);
+    
+    
 }
